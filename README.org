@@ -9,6 +9,7 @@ rake backup_add #バックアップの数を増やす (入力 ディレクトリ
 rake backup_remove #バックアップの数を減らす (入力 ディレクトリまでのパス 削除するバックアップの数 )
 
 * 想定しているディレクトリ構造
+=
 hoge - main - 
      |
      - backup - backup_1
@@ -16,5 +17,5 @@ hoge - main -
               - backup_2
                    :
               - backup_n
-
+=
 main のディレクトリの中身をバックアップを取ったり，バックアップを適用する
